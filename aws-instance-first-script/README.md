@@ -1,6 +1,6 @@
 # aws-instance-first-script
 
-![](https://github.com/easyawslearn/Terraform-Tutorial/workflows/terraform-tutorials-ci/badge.svg)
+![](https://github.com/devopsengineer30/Terraform-Tutorial/workflows/terraform-tutorials-ci/badge.svg)
 
 A Terraform module for creating AWS EC2 instance.
 
@@ -8,9 +8,9 @@ A Terraform module for creating AWS EC2 instance.
 
 ```hcl
 module "ec2_instance" {
-  source     = "git::https://github.com/easyawslearn/Terraform-Tutorial.git//aws-instance-first-script"
+  source     = "git::https://github.com/devopsengineer30/Terraform-Tutorial.git//aws-instance-first-script"
 
-  region    = "us-west-2"
+  region    = "us-east-2"
 }
 ```
 
